@@ -1,79 +1,134 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BTS</title>
 
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BTS</title>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
 
 </head>
+
 <body>
-      <nav class="navbar is-dark" role="navigation"  aria-label="main navigation">
-        <div class="navbar-brand">
-            <div class="navbar-brand has-background-white" >
-                <a class="navbar-item" href="https://bulma.io">
-                  
-                    <h1 class="has-text-dark has-text-weight-bold is-family-monospace">BTS</h1>
-                    <hr class="separator" >
-                </a>
-          
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
+  <nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <div class="navbar-brand has-background-white">
+        <a class="navbar-item" href="https://bulma.io">
+
+          <h1 class="has-text-dark has-text-weight-bold is-family-monospace">BTS</h1>
+          <hr class="separator">
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item smoothScroll">
+            Home
+
           </a>
+
+          <a class="navbar-item smoothScroll"  href="#servicos">
+            Serviços
+          </a>
+
+          <a class="navbar-item smoothScroll" href="#clientes">
+            Nossos clientes
+          </a>
+
+          <a class="navbar-item smoothScroll"  href="#sobre" >
+            Sobre
+          </a>
+
+          <a class="navbar-item smoothScroll"  href="#trabalheConosco">
+            Trabalher conosco
+          </a>
+
+          <a class="navbar-item smoothScroll"  href="#contato">
+            Contato
+          </a>
+
         </div>
-      
-        <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item">
-              Home
-            </a>
-      
-            <a class="navbar-item">
-              Documentation
-            </a>
-      
-            <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link">
-                More
-              </a>
-      
-              <div class="navbar-dropdown">
-                <a class="navbar-item">
-                  About
-                </a>
-                <a class="navbar-item">
-                  Jobs
-                </a>
-                <a class="navbar-item">
-                  Contact
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item">
-                  Report an issue
-                </a>
-              </div>
-            </div>
-          </div>
-      
+      </div>
+    </div>
+
+    </div>
+  </nav>
+
+  <section class="hero is-dark is-large">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          Grandes ideias começam aqui.
+        </h1>
+        <h2 class="subtitle">
+          Descubra mais...
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="hero is-large">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Nossos Serviços</h1>
         </div>
-      </nav>
-      <section class="hero is-dark is-large">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title">
-              Grandes ideias começam aqui.
-            </h1>
-            <h2 class="subtitle">
-              Descubra mais...
-            </h2>
-          </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="clientes">
+    <div class="hero is-large is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Nossos Clientes</h1>
         </div>
-      </section>
-    
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="hero is-large">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Sobre nós</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="trabalheConosco">
+    <div class="hero is-large is-dark">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Trabalhe conosco</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="hero is-large">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Contato</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="src/main.js"></script>
+
 </body>
+
 </html>
