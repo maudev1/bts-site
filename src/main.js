@@ -1,4 +1,12 @@
-$('.smoothScroll').click(function(){
-    $("html, body").animate({ scrollTop: 0 }, 600);
-    return false;
-});
+$('.scroll').click(function (e) {
+    e.preventDefault();
+
+    var id = $(this).attr('href');
+    targetOffset = $(id).offset().top,
+    menuHeight = $('nav').innerHeight();
+    $('html,body').animate({
+        scrollTop: targetOffset - menuHeight
+    }, 500)
+
+    console.log(id)
+})
